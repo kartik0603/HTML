@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <h2>Basic Information</h2>
+
+    <form action="backend.php">
+      <div><label for="First Name"
+        >First Name: <input type="text" name="myname" id="First Name"
+      /></label></div>
+        
+      </div>
+      <br />
+
+      <div> <label for="Last Name">Last Name : <input type="text"  id="Last Name"/></label></div>
+      <br />
+      <div> <label for="Middle Name"> Middle Name : <input type="text" id="Middle Name" /></label>  </div>
+      <br />
+      <div><label for="Email">Email : <input type="text"  id="Email"/></label></div>
+      <br />
+      <div> <label for="Mobile Number">Mobile Number : <input type="text" id="Mobile Number" /></label>    </div>
+      <br />
+      <div> <label for="Address">Address: <input type="text" id="Address" /></label></div>
+      <br />
+
+      <div><label for="Date of Birth">Date of Birth: <input type="date" value="mydate"  id="Date of Birth"/></label>  </div>
+      <br />
+
+      <div> <label for="Year of Experience">Year of Experience: <input type="number" id="Year of Experience" /></label> </div>
+      <br />
+
+      <div> <label for="Are you Eligible for Working in this Country">Are you Eligible for Working in this Country:
+        <input type="checkbox"   id="Are you Eligible for Working in this Country"/></label>
+        
+      </div>
+      <br />
+
+       
+
+
+      <div><label for="Gender">Select Gender:</label>
+        <select id="Gender" name="Gender">
+          
+          <option value="Male">Male</option>
+
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+          
+        </select></div>
+      <br />
+
+      <div> <label for="myfile">Profile Picture : <input type="file" id="myfile" name="file name"></label> </div> <br>
+
+      <div> <label for="Write About your Self">Write About your Self :<br />
+        <textarea name="mytext" cols="60" rows="10" id="Write About your Self"></textarea></label>
+        
+      </div>
+      <br />
+
+      <div>
+        <input type="Submit" value="Submit now" />
+        <input type="reset" value="Reset now" />
+      </div>
+      <br />
+    </form>
+  </body>
+</html>
